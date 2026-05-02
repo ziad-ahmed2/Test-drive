@@ -10,7 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-
+document.querySelector('a[href="#booking"]').addEventListener("click", function(e){
+    e.preventDefault();
+    document.querySelector("#booking").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+});
 
     
     const links = document.querySelectorAll("nav ul li a");
