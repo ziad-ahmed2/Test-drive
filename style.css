@@ -368,33 +368,7 @@ margin-bottom: 20px;
     color: #B7622C;
 }
 
-@media (max-width: 768px){
-    .hero h1{
-        font-size:40px;
-    }
 
-    .hero-content{
-        padding-left:20px;
-    }
-
-    .hero-steps{
-        flex-direction: column;
-        gap:20px;
-    }
-
-    .card{
-        flex-direction: column;
-    }
-
-    .features{
-        flex-direction: column;
-        gap:40px;
-    }
-
-    .section, .models, .footer{
-        padding:60px 20px;
-    }
-}
 
 
 </style>
